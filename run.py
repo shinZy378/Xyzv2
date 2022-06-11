@@ -159,7 +159,7 @@ def banner():
   / / / / / / /_/ / / /_/ /  / /_/ /_/ / /_/ / (__  )
 /_/ /_/ /_/\__,_/_/\__/_/   \__/\____/\____/_/____/ 
 PROXY=AKTIF'''
-	oi = nel(tekz(ban,justify='center',style='red'), style='green')
+	oi = nel(tekz(ban,justify='center',style='green'), style='green')
 	cetak(nel(oi, title='[bold red] • INFORMASI PENGEMBANG • [/bold red]'))
 # VALIDASI TOKEN
 def login():
