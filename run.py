@@ -38,8 +38,8 @@ try:
 	open('.all.txt','w').write(prox)
 except Exception as e:
 	print('GAGAL')
-prox=open('.prox.txt','r').read().splitlines()
-#os.system('rm -rf .prox.txt')
+prox=open('.all.txt','r').read().splitlines()
+#os.system('rm -rf .all.txt')
 
 for xd in range(1000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
