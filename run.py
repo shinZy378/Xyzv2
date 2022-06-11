@@ -159,7 +159,7 @@ def banner():
   / / / / / / /_/ / / /_/ /  / /_/ /_/ / /_/ / (__  )
 /_/ /_/ /_/\__,_/_/\__/_/   \__/\____/\____/_/____/ 
 PROXY=AKTIF'''
-	oi = nel(tekz(ban,justify='center',style='bold'), style='green')
+	oi = nel(tekz(ban,justify='center',style='red'), style='green')
 	cetak(nel(oi, title='[bold red] • INFORMASI PENGEMBANG • [/bold red]'))
 # VALIDASI TOKEN
 def login():
@@ -319,7 +319,7 @@ def menu(my_name,my_id):
 [09] TIPS CRACK 
 [00] LOGOUT[bold green]'''
 	oi = nel(io, style='red')
-	cetak(nel(oi, title='[bold cyan] • MENU CRACK • [/bold cyan]'))
+	cetak(nel(oi, title='[green] • MENU CRACK • [/bold cyan]'))
 	ec = input(x+'['+p+'<>'+x+'] Pilih : ')
 	if ec in ['1','01']:
 		dump_publik()
